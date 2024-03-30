@@ -37,12 +37,15 @@ var code=prompt ("Want to get  your giftbox? Select a  code-atiya/sakila")
 
 
 
-code1="atiya";
-code2="sakila";
+code1="sumi";
+code2="kona";
 Giftbox="Congratulations!You have won the gift box!";
 sorry="We are extremely sorry,you have select the wrong code";
-if(code=code1)
+if(code=code1){
+    console.log(Giftbox);
+}
 
-console.log(Giftbox);
-else ();
-console.log(sorry);
+
+else{
+    console.log(sorry);
+};
